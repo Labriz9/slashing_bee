@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": {
+      "text": "Clé Elite"
+    },
+    "description": "La clé que je viens de récupérer dégage énormément d'énergie, je me demande ce qu'elle peut bien ouvrir...",
+    "hidden": true
+  },
+  "parent": "slashing_bee:first_battle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{CustomModelData:100}"
+    },
+    "title": "Commun",
+    "description": "Obtenir un objet commun",
+    "hidden": true
+  },
+  "parent": "slashing_bee:summon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{rarity:common}"
+          }
+        ]
+      }
+    }
+  }
+}

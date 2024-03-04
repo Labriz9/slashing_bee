@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{CustomModelData:500}"
+    },
+    "title": {
+      "text": "Légendaire !!!",
+      "color": "#FEAF00",
+      "bold": true
+    },
+    "description": "Obtenir un objet légendaire :O",
+    "hidden": true
+  },
+  "parent": "slashing_bee:summon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{rarity:legendary}"
+          }
+        ]
+      }
+    }
+  }
+}

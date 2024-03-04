@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "text": "Première Bataille"
+    },
+    "description": "Maintenant équipés, partons de l'abri pour affronter les serviteurs dont parlait le message...",
+    "hidden": true
+  },
+  "parent": "slashing_bee:first_equipment",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:item_frame"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slashing_bee:prologue/first_battle"
+  }
+}

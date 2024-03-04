@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "title": {
+      "text": "Invocation Spéciale"
+    },
+    "description": "Les clés semblent avoir servi à sceller les souvenirs d'anciens guerriers, c'est sûrement pourquoi elles sont détenues par des monstres puissants....",
+    "hidden": true
+  },
+  "parent": "slashing_bee:elite_key",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"Special_Summon_Start\"]}"
+        }
+      }
+    }
+  }
+}

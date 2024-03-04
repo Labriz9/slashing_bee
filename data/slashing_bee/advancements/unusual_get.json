@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{CustomModelData:200}"
+    },
+    "title": {
+      "text": "Inhabituel",
+      "color": "#00CC66"
+    },
+    "description": "Obtenir un objet inhabituel",
+    "hidden": true
+  },
+  "parent": "slashing_bee:summon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{rarity:unusual}"
+          }
+        ]
+      }
+    }
+  }
+}

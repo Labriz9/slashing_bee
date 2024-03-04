@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "text": "Invocation"
+    },
+    "description": "J'ai pu récupérer 100 pièces d'or avant que les ennemis n'arrivent. Elles pourraient contenir les souvenirs de leurs anciens possesseurs, le message parlait d'un arbre à ce sujet...",
+    "hidden": true
+  },
+  "parent": "slashing_bee:first_battle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slashing_bee:prologue/summon_give"
+  }
+}

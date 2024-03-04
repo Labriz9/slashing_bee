@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"Adv_entity_hurt_player\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slashing_bee:process/advancements/entity_hurt_player"
+  }
+}

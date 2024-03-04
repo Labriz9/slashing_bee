@@ -1,0 +1,11 @@
+{
+	"values": [
+		"slashing_bee:player_attack",
+		"minecraft:player_attack",
+		"minecraft:thorns",
+		"minecraft:magic",
+		"minecraft:wither",
+		"minecraft:arrow",
+		"minecraft:sting"
+	]
+}

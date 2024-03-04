@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": "Slashing Bee",
+    "description": "Vous vous réveillez ici sans aucun souvenir mais possédez un message...",
+    "background": "minecraft:textures/block/moss_block.png"
+  },
+  "criteria": {
+    "setup": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "slashing_bee:prologue/initial_give"
+  }
+}
